@@ -12,7 +12,7 @@ from pyrogram.errors import (
     PhoneCodeInvalid, PhoneCodeExpired
 )
 
-API_TEXT = ""😋"Hi, {}.
+API_TEXT = """Hi, {}.
  👋 I can generate pyrogram strings session for your Telegram accounts🤗.
 
 🔥Send me👉 /help 👈for more info🔥
