@@ -12,24 +12,24 @@ from pyrogram.errors import (
     PhoneCodeInvalid, PhoneCodeExpired
 )
 
-API_TEXT = """Hi, {}.
- 👋 I can generate pyrogram strings session for your Telegram accounts.
+API_TEXT = ""😋"Hi, {}.
+ 👋 I can generate pyrogram strings session for your Telegram accounts🤗.
 
-Send me /help for more info
+🔥Send me👉 /help 👈for more info🔥
 
-⚠️ Disclaimer - This bot is 100% safe. But please make sure that you properly know what a string session is & how it performs, brfore using me.
+⚠️ Disclaimer - This bot is 100% safe. 🥶But please make sure that you properly know what a string session is & how it performs, brfore using me.
 
-A project by @supunma 🇱🇰
+A project by @omindas 🇱🇰
 
 ✅ Join our bots channel and group
-🔰@SL_bot_zone 🔰@slbotzone
+🔰@sdprojectupdates  ⚡Powerd By Ominda....🌀
 
-Now send your `API_ID` same as `APP_ID` to Start Generating Session."""
+👨‍💻Now send your `API_ID` same as `APP_ID` to Start Generating Session💎."""
 HASH_TEXT = "Now send your `API_HASH`.\n\nPress /cancel to Cancel Task."
 PHONE_NUMBER_TEXT = (
-    "Now send your Telegram account's Phone number in International Format. \n"
-    "Including Country code. Example: **+94781921452**\n\n"
-    "Press /cancel to Cancel Task."
+    "❤️Now send your Telegram account's Phone number in International Format❤️. \n"
+    "🎈Including Country code. Example: **+94781921452**\n\n"
+    "✳️Press /cancel to Cancel Task✳️."
 )
 
 @bot.on_message(filters.private & filters.command("start"))
@@ -166,11 +166,11 @@ Must Join Channel for Bot Updates !!
     reply_markup = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton('✅Support Group✅', url='https://t.me/slbotzone'),
-                InlineKeyboardButton('👨‍💻 Developer👨‍💻 ', url='https://t.me/supunma')
+                InlineKeyboardButton('✅Support Group✅', url='https://t.me/sdprojectupdates'),
+                InlineKeyboardButton('👨‍💻 Developer👨‍💻 ', url='https://t.me/omindas')
             ],
             [
-                InlineKeyboardButton('🔥 Bots Updates Channel 🔥 ', url='https://t.me/SL_bot_zone'),
+                InlineKeyboardButton('🔥 Contact Me 🔥 ', url='https://t.me/omindas'),
             ]
         ]
     )
